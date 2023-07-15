@@ -48,7 +48,7 @@ mod ERC20 {
     #[view] 
     fn allowances(owner: ContractAddress, spender: ContractAddress) ->u256 {
         _allowances::read((owner,spender))
-    }
+    } 
 
 
 

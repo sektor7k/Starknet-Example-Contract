@@ -113,7 +113,7 @@ mod ERC20 {
 
     #[view]
     fn name() -> felt252 {
-        ERC20::name()
+        ERC20::name() 
     }
 
     #[view]
